@@ -1,1 +1,0 @@
-// Placeholder for React app with face scan + Polkadot.js login logic
