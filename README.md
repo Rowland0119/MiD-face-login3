@@ -141,4 +141,4 @@ MiD (My Decentralized Face Identity) is a Web3-native authentication tool that a
 ---
 
 **Contact:**  
-For questions, demo, or partnerships, contact @Rowland0119
+For questions, demo, or partnerships, contact (copyrowland@gmail.com)
