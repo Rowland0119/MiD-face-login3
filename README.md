@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# MiD – My Decentralized Face Identity: MVP Brief
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## What is MiD?
 
-In the project directory, you can run:
+MiD (My Decentralized Face Identity) is a Web3-native authentication tool that allows users to register and use their face as a secure, privacy-preserving, and decentralized identity. By linking facial biometrics (stored only in each user’s browser) with their Polkadot.js wallet, MiD enables passwordless login and a new level of trust and user experience for Dapps.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Why is MiD Essential in Web3?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Human-Only Access:**  
+  MiD brings a strong “proof of personhood” to the blockchain, making it much harder for bots and fake accounts to abuse, spam, or game decentralized systems.
 
-### `npm test`
+- **Privacy & Security:**  
+  No sensitive biometric data ever leaves the user’s device. Face templates are stored locally, not on a central server or chain, so users are always in control.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frictionless Onboarding:**  
+  Users can access Dapps instantly—no passwords, no seed phrases to remember, no complex onboarding. Just scan your face, connect your wallet, and you’re in.
 
-### `npm run build`
+- **Sybil Resistance:**  
+  By tying each face to a unique wallet, MiD helps Dapps enforce one-person-one-account rules and fairly distribute rewards, votes, or resources.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Decentralized & Modular:**  
+  Built for cross-chain compatibility, starting with Polkadot but designed to expand to Ethereum, Solana, and beyond.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tackling Bots and Fake Accounts
 
-### `npm run eject`
+- MiD’s biometric verification ensures only real, unique humans access Dapps or participate in key activities (airdrops, voting, governance, etc).
+- This slashes the risk of Sybil attacks—where a single user creates endless fake accounts to exploit systems.
+- Dapps can require MiD login for their most important or vulnerable actions, making automation and bot abuse much more difficult.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dapps That Can Benefit from MiD
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **DAOs and Governance Platforms:**  
+  Enforce “one person, one vote” with confidence.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Airdrops & Token Launches:**  
+  Distribute tokens only to verified, unique individuals—no more bot/fake account farming.
 
-## Learn More
+- **Decentralized Social Media:**  
+  Limit spam, fake profiles, and harassment by requiring human-verified accounts for posting or messaging.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **DeFi Platforms:**  
+  Use MiD for high-value actions (withdrawals, large swaps, account upgrades) as an added layer of security.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **NFT Marketplaces:**  
+  Reduce fraud by ensuring only real users can mint, buy, or sell NFTs.
 
-### Code Splitting
+- **Gaming and Play-to-Earn:**  
+  Prevent botting and multi-account abuse, ensuring fair play and reward distribution.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Cross-Chain Applications:**  
+  As MiD expands to other chains, any app needing human verification or strong, decentralized authentication can integrate MiD.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## MVP Features
 
-### Making a Progressive Web App
+1. **Face Enrollment**  
+   - User scans their face (webcam/phone).
+   - Face template is securely created and stored only in the browser (localStorage or IndexedDB).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. **Wallet Linking**  
+   - User connects their Polkadot.js wallet.
+   - Face identity is cryptographically linked to the wallet address.
 
-### Advanced Configuration
+3. **Face Login for Dapps**  
+   - Dapps can integrate MiD for passwordless, face-based login and account verification.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. **Sensitive Actions: Wallet Signature**  
+   - Optional (user-controlled): For actions like token transfers or profile updates, require a wallet signature for extra security.
 
-### Deployment
+5. **Settings & User Control**  
+   - Users can enable/disable wallet signature requirement for sensitive actions.
+   - All security settings are transparent and user-driven.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## User Flow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Registration**
+   - Open MiD app.
+   - Scan face.
+   - Connect Polkadot.js wallet.
+   - Link face to wallet.
+
+2. **Login (Dapp using MiD)**
+   - Click “Login with MiD”.
+   - Scan face.
+   - MiD authenticates and unlocks Dapp using wallet.
+
+3. **Sensitive Action**
+   - User initiates a sensitive action.
+   - If required (by user or Dapp), app prompts for wallet signature.
+   - User signs message with wallet.
+   - Action proceeds on successful verification.
+
+---
+
+## Technical Notes
+
+- **Face Recognition:**  
+  Use a browser-based library like [face-api.js](https://justadudewhohacks.github.io/face-api.js/) (no backend needed for MVP).
+
+- **Wallet Integration:**  
+  Use [@polkadot/extension-dapp](https://polkadot.js.org/docs/extension/) for Polkadot.js wallet connection and message signing.  
+  Sensitive actions: use the `signer.signRaw` method.
+
+- **Demo Dapp:**  
+  Build a simple Dapp that requests MiD login, demonstrates the flow, and shows “user logged in as [address]”.  
+  Add a demo sensitive action (“Transfer” or “Change Settings”) that requires face authentication + wallet signature, if enabled.
+
+- **Decentralized Storage:**  
+  Face biometric templates are only saved in the user’s browser, never uploaded to a server.
+
+- **Integration & Cross-Chain:**  
+  MiD exposes simple APIs for Dapps to integrate "Login with Face".  
+  Built to support other chains and wallets in the future.
+
+---
+
+## Stretch Goals
+
+- NFT badge for verified face identity.
+- Mobile version (React Native or PWA).
+- Integration with Ethereum, Solana, etc.
+
+---
+
+## Demo
+
+- Use the provided React prototype for a clickable demo ([see App.js in this repo](./App.js) or ask for a hosted link).
+- For a full MVP, implement with [face-api.js](https://justadudewhohacks.github.io/face-api.js/) and [@polkadot/extension-dapp](https://polkadot.js.org/docs/extension/).
+
+---
+
+**Contact:**  
+For questions, demo, or partnerships, contact (copyrowland@gmail.com)

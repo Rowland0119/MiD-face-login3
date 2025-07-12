@@ -1,7 +1,23 @@
 {
-  "name": "mid-mvp",
-  "version": "0.1.0",
+  "name": "mid-face-login3",
+  "version": "1.0.0",
   "private": true,
+  "description": "MiD – My Decentralized Face Identity: React MVP",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "identity",
+    "face-login",
+    "polkadot"
+  ],
+  "author": "Rowland0119",
+  "license": "MIT",
   "dependencies": {
     "@polkadot/extension-dapp": "^0.59.2",
     "@testing-library/dom": "^10.4.0",
@@ -14,12 +30,6 @@
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
