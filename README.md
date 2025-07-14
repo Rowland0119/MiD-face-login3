@@ -141,7 +141,7 @@ MiD (My Decentralized Face Identity) is a Web3-native authentication tool that a
 
 ## Team Members
 
-- Get to know the team on x (@rowlandd__) and (@vic_dan)
+- Get to know the team on x (https://x.com/rowlandd__?s=11) and (https://x.com/vi_cdan?s=11)
 
 ---
 
