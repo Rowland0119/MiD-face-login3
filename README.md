@@ -135,7 +135,7 @@ MiD (My Decentralized Face Identity) is a Web3-native authentication tool that a
 
 ## Demo
 
-- Use the provided React prototype for a clickable demo ([see App.js in this repo](./App.js) or ask for a hosted link).
+- Use the provided React prototype for a clickable demo (https://mi-d-face-login3.vercel.app/)
 - For a full MVP, implement with [face-api.js](https://justadudewhohacks.github.io/face-api.js/) and [@polkadot/extension-dapp](https://polkadot.js.org/docs/extension/).
 
 ---
