@@ -4,7 +4,7 @@
 
 ## What is MiD?
 
-MiD (My Decentralized Face Identity) is a Web3-native authentication tool that allows users to register and use their face as a secure, privacy-preserving, and decentralized identity. By linking facial biometrics (stored only in each user’s browser) with their Polkadot.js wallet, MiD enables passwordless login and a new level of trust and user experience for Dapps.
+MiD (My Decentralized Face Identity) is a Web3-native authentication tool that allows users to register and use their face as a secure, privacy-preserving, and decentralized identity. By linking facial biometrics (stored only in each user’s browser) with their Polkadot wallet, MiD enables passwordless login and a new level of trust and user experience for Dapps.
 
 ---
 
@@ -64,10 +64,10 @@ MiD (My Decentralized Face Identity) is a Web3-native authentication tool that a
 
 1. **Face Enrollment**  
    - User scans their face (webcam/phone).
-   - Face template is securely created and stored only in the browser (localStorage or IndexedDB).
+   - Face template is securely created and stored only in the browser (localStorage).
 
 2. **Wallet Linking**  
-   - User connects their Polkadot.js wallet.
+   - User connects their Polkadot wallet.
    - Face identity is cryptographically linked to the wallet address.
 
 3. **Face Login for Dapps**  
@@ -87,8 +87,9 @@ MiD (My Decentralized Face Identity) is a Web3-native authentication tool that a
 1. **Registration**
    - Open MiD app.
    - Scan face.
-   - Connect Polkadot.js wallet.
-   - Link face to wallet.
+   - Connect Polkadot wallet.
+   - Link face to wallet
+   - Activate wallet signature for sensitive (optional).
 
 2. **Login (Dapp using MiD)**
    - Click “Login with MiD”.
@@ -109,7 +110,7 @@ MiD (My Decentralized Face Identity) is a Web3-native authentication tool that a
   Use a browser-based library like [face-api.js](https://justadudewhohacks.github.io/face-api.js/) (no backend needed for MVP).
 
 - **Wallet Integration:**  
-  Use [@polkadot/extension-dapp](https://polkadot.js.org/docs/extension/) for Polkadot.js wallet connection and message signing.  
+  Use [@polkadot/extension-dapp](https://polkadot.js.org/docs/extension/) for Polkadot wallet connection and message signing.  
   Sensitive actions: use the `signer.signRaw` method.
 
 - **Demo Dapp:**  
