@@ -127,7 +127,6 @@ MiD (My Decentralized Face Identity) is a Web3-native authentication tool that a
 
 ## Stretch Goals
 
-- NFT badge for verified face identity.
 - Mobile version (React Native or PWA).
 - Integration with Ethereum, Solana, etc.
 
@@ -140,5 +139,12 @@ MiD (My Decentralized Face Identity) is a Web3-native authentication tool that a
 
 ---
 
+## Team Members
+
+- Get to know the team on x (@rowlandd__) and (@vic_dan)
+
+---
+
 **Contact:**  
 For questions, demo, or partnerships, contact (copyrowland@gmail.com)
+Reach MiD on x @MiD 
